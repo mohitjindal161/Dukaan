@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <shop>
+        <id>1</id>
+        <title>Bunty Karyana Store</title>
+        <distance>2 KM</distance>
+        <rating>4</rating>
+        <delivery>Rs. 200</delivery>
+        <thumb_url>https://api.androidhive.info/music/images/adele.png</thumb_url>
+    </shop>
+    <shop>
+        <id>2</id>
+        <title>Bunty Karyana Store</title>
+        <distance>2 KM</distance>
+        <rating>4</rating>
+        <delivery>Rs. 200</delivery>
+        <thumb_url>https://api.androidhive.info/music/images/adele.png</thumb_url>
+    </shop>
+    <shop>
+        <id>3</id>
+        <title>Bunty Karyana Store</title>
+        <distance>2 KM</distance>
+        <rating>4</rating>
+        <delivery>Rs. 200</delivery>
+        <thumb_url>https://api.androidhive.info/music/images/adele.png</thumb_url>
+    </shop>
+    <shop>
+        <id>4</id>
+        <title>Bunty Karyana Store</title>
+        <distance>2 KM</distance>
+        <rating>4</rating>
+        <delivery>Rs. 200</delivery>
+        <thumb_url>https://api.androidhive.info/music/images/adele.png</thumb_url>
+    </shop>
+    <shop>
+        <id>5</id>
+        <title>Bunty Karyana Store</title>
+        <distance>2 KM</distance>
+        <rating>4</rating>
+        <delivery>Rs. 200</delivery>
+        <thumb_url>https://api.androidhive.info/music/images/adele.png</thumb_url>
+    </shop>
+    <shop>
+        <id>6</id>
+        <title>Bunty Karyana Store</title>
+        <distance>2 KM</distance>
+        <rating>4</rating>
+        <delivery>Rs. 200</delivery>
+        <thumb_url>https://api.androidhive.info/music/images/adele.png</thumb_url>
+    </shop>
+</menu>

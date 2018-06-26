@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="70dp" >
+    <!-- icon -->
+         
+
+    <ImageView
+        android:id="@+id/product_icon"
+        android:layout_width="35dp"
+        android:layout_height="68dp"
+        android:layout_alignParentLeft="true"
+        android:layout_marginBottom="2dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginRight="8dp"
+        android:layout_marginTop="2dp"
+        android:src="@drawable/masalanoodles" />
+     
+        <!-- title -->
+    <TextView
+        android:id="@+id/product_title"
+        android:layout_width="188dp"
+        android:layout_height="15dp"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="2dp"
+        android:layout_toEndOf="@+id/product_icon"
+        android:text="Maggi Masala (200gm)"
+        android:textSize="12dp" />
+
+
+    <TextView
+        android:id="@+id/product_desc"
+        android:layout_width="190dp"
+        android:layout_height="32dp"
+        android:layout_alignStart="@+id/product_title"
+        android:layout_centerVertical="true"
+        android:text="It is Maggi: Real Taste of India"
+        android:textSize="12dp" />
+
+    <TextView
+        android:id="@+id/product_price"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginEnd="36dp"
+        android:text="Rs. 1000"
+        android:textSize="12dp" />
+
+    <ImageView
+        android:id="@+id/addQuantity"
+        android:layout_width="25dp"
+        android:layout_height="30dp"
+        android:layout_marginTop="15dp"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="25dp"
+        android:layout_toEndOf="@+id/product_desc"
+        app:srcCompat="@drawable/minus"
+        />
+
+    <TextView
+        android:id="@+id/quantityNumber"
+        android:layout_width="25dp"
+        android:layout_height="30dp"
+        android:layout_marginStart="0dp"
+        android:layout_marginTop="15dp"
+        android:layout_toEndOf="@+id/addQuantity"
+
+        android:text="1"
+        android:textAlignment="center"
+        android:textSize="22dp" />
+
+    <ImageView
+        android:id="@+id/minusQuantity"
+        android:layout_width="25dp"
+        android:layout_height="30dp"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="0dp"
+        android:layout_marginTop="15dp"
+        android:layout_toEndOf="@+id/quantityNumber"
+
+        app:srcCompat="@drawable/add" />
+     
+
+     
+</RelativeLayout>

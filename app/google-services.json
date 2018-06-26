@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "688260748868",
+    "firebase_url": "https://dukaan-3860d.firebaseio.com",
+    "project_id": "dukaan-3860d",
+    "storage_bucket": "dukaan-3860d.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:688260748868:android:c8179d97fc0b06a0",
+        "android_client_info": {
+          "package_name": "com.example.mohitjindal.dukaan"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "688260748868-1381ogpdu6fm2pdau3nk7ivhajg28kn1.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBJaztuMp6Hd1XDTX2y_9sga9kAB5iZoHQ"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
